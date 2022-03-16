@@ -1,0 +1,45 @@
+nav{
+background-color: goldenrod;
+list-style-type: none;
+text-align: center;
+padding: 0px;
+margin: 0px;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px;
+}
+
+h1{
+    background-color: rgba(226, 188, 15, 0.89);
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    }
+
+h2{
+    background-color: rgba(226, 188, 15, 0.89);
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    }
+
+form{
+    background-color: rgba(15, 147, 235, 0.89);
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    }
+button
+    {
+    background-color: rgba(15, 147, 235, 0.548);
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    }
