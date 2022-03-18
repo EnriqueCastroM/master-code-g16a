@@ -1,0 +1,22 @@
+body{
+    background-color: darkslategrey;
+}
+header{
+    background-color: deepskyblue;
+}
+.blanco{
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section{
+    background-color: #ffffff;
+    border: purple 10px dashed;
+}
+
+.colores{
+    border: red solid 10px;
+    border-top-color: red;
+    border-right-color: chartreuse;
+    border-bottom-color: yellow;
+}

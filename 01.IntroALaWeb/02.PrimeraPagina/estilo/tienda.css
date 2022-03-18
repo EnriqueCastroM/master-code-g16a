@@ -1,6 +1,10 @@
+/* Fuentes: */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 /*Aqui modificamos el body*/
 body {
     background-color: lightblue;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
   }
 /*Aqui modificamos Barra de navegacion*/
   ul {
@@ -12,6 +16,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
   }
   li {
     float: left;
@@ -32,6 +37,8 @@ body {
   }
 
 /*Aqui modificamos los productos*/
-#products{    
-  color: black;
+#products img{    
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
 }

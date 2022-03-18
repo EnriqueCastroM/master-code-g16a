@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    background-color: aquamarine;
+}
+
+.tarjeta{
+    border-color: rgb(255, 217, 0) 15px;
+    width: 100%;
+    height: 50;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 3px 3px;
+}
