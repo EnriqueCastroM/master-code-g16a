@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background: linear-gradient(rgba(84,93,220,.8), rgba(96,171,245,.7)), url(../img/store.png);
+    height: 100vh;
+    background-size: auto;
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+
+}
+
+header ul li{
+    list-style: none;
+    margin-right: 15px;
+
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.contenedor{
+    max-width: 1360px;
+    margin: auto;
+}
+
+#contenedor-titulo-flex{
+    display: flex;
+    justify-content: center;
+    margin: 18vh;
+    width: 100%;
+}
+
+h1{
+    font-size: 50px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.contenedor-titulo{
+    text-align: center;
+}
+
+p.logo{
+    color: white;
+}
+
+nav ul li a{
+    color: white;
+}
+
+/* INICIO */
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+#inicio{
+    width: 45%;
+}
+
+#inicio .contenedor-inicio{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* PRODUCTOS */
+#productos{
+    background-color: rgba(164, 223, 218, 0.589);
+}
+
+#productos .contenedor-productos{
+    display: flex;
+    justify-content:space-around; 
+}
+
+#productos .muestra{
+    width: 30%;
+    box-shadow: 2px 2px 14px grey;
+}
+
+#productos img{
+    width: 100%;
+
+}
+
+#producto .contenido{
+    background: whitesmoke;
+    padding: 0;
+}
+
+#productos h4{
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+#productos p{
+    color: rgb(0, 0, 0);
+    line-height: 24px;
+    font-size: 15px;
+}
+
+/* FOOTER O FINAL DE PAGINA */
+
+footer{
+    display: flex;
+
+    background-color: rgb(6, 31, 78);
+    padding: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+footer img{
+    width: 5%;
+    
+}
+footer p{
+    color: white;
+    margin-top: 40px;   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#inicio #productos{
+    padding: 50px 0;
+}
+
+.menu-icon{
+    display: none;
+}
+
+/* Inicia @media */
+@media (max-width:700px){
+    .menu-icon{
+        display: block;
+        float: right;
+        width: 40px;
+        height: 35px;
+        margin-top: 15px;
+    }
+    header nav{
+        position: absolute;
+        top: 83px;
+        left: 0;
+        height: 260px;
+        background: #8660c4b4;
+        display: none;
+    }
+
+    header nav ul{
+        flex-direction: column;
+    }
+    header nav ul il{
+        margin-bottom: 15px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #inicio .contenedor-inicio{
+        flex-direction: column;
+    }
+    #inicio img{
+        width: 100%;
+    }
+    h3{
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,9 @@
+body{
+    background-color: rgba(127, 219, 231, 0.808);
+}
+
+@media only screen and (max-width: 700px{
+    body{
+        background-color: hotpink;
+    }
+}
