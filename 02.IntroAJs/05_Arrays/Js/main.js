@@ -1,4 +1,4 @@
-    // EJEMPLO INDICES ARRAYS
+// Ejemplo de Arrays index
 
 // var arrays = [];//esta vacio
 // var valores = ['hola', 'mascota', 'comida', 'adios'];
@@ -9,7 +9,7 @@
 // ---
 
 
-    // EJEMPLO MASCOTAS ARRAYS
+// Ejemplo 2 Arrays,
 
 // var mascota, mascota1, mascota2, cadenaMascota;
 // var arrayMascotas = [];
@@ -31,7 +31,7 @@
 //     alert(cadenaMascota);
 // }
 
-//-----------EJERCICIO------------------
+//-----------EJERCICIO---PRACTICO---------------
 //1-mediante ciclo for mostrar todos los platillos
 //2-mediante un for o if mostar solo el valor 3 y 5
 //3-mediante un for o if mostar los elementos impares
