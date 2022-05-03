@@ -4,4 +4,4 @@ Estos archivos html css y js serán de aprendizaje para todas las personas que e
 vienen ejemplos desde cero para que el usuario pueda interactuar con las tecnologias y añadir elementos a sus proyectos propios, 
 sientanse libres de usar el código si así lo desean, que tengan linda tarde.
 
-Enrique Ivan Castro Web Developer.
+Enrique Ivan Castro Medina Web Developer.
