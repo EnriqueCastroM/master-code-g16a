@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icono Pagina y titulo -->
+    <link rel="icon" href="./img/atm.png">
+    <title>Cajero automatico</title>
+    <!-- FUENTES REFERENCIAS -->
+    <script src="https://kit.fontawesome.com/e3aa5a861d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="./css/style.css">    
+    <!-- Script -->
+    <script src="./Js/main.js"></script>
+</head>
+
+<body>
+    
+
+<form action="">
+
+    <h1>¡Bienvenido a tu cuenta!</h1>
+    <label for="">Cuenta 1 Saldo:</label>
+    <input type="text" name="Cantidad1" id="C1" value="200">
+    <label for="">Cuenta 2 Saldo</label>
+    <input type="text" name="Cantidad2" id="C2" value="290">
+    <label for="">Cuenta 3 Saldo</label>
+    <input type="text" name="Cantidad3" id="C3" value="67">
+    <br>
+    <h1>Ingresa la cantidad a realizar alguna operación:</h1>
+    <input type="text" name="" id="cantidadATransferir" placeholder="Cantidad">
+    <h1>
+        Operaciones disponibles:
+    </h1>
+    <h2><-Transferir saldo-></h2>
+    <input type="button" value="Transferencia de cuenta 1 a 2" id="bt2" onclick="Transfer1to2()">
+    <input type="button" value="Transferencia de cuenta 1 a 3" id="bt3" onclick="Transfer1to3()">
+    <hr>
+    <input type="button" value="Transferencia de cuenta 2 a 1" id="bt4" onclick="Transfer2to1()">
+    <input type="button" value="Transferencia de cuenta 2 a 3" id="bt5" onclick="Transfer2to3()">
+    <hr>
+    <input type="button" value="Transferencia de cuenta 3 a 1" id="bt6" onclick="Transfer3to1()">
+    <input type="button" value="Transferencia de cuenta 3 a 2" id="bt7" onclick="Transfer3to2()">
+    <hr>
+    <h2><-Depositar saldo-></h2>
+    <input type="button" value="Depositar a cuenta 1" id="bt8" onclick="Deposit1()">
+    <hr>
+    <input type="button" value="Depositar a cuenta 2" id="bt9" onclick="Deposit2()">
+    <hr>
+    <input type="button" value="Depositar a cuenta 3" id="bt10" onclick="Deposit3()">
+    <hr>
+    <h2><-Retirar saldo-></h2>
+    <input type="button" value="Retirar de cuenta 1" id="bt11" onclick="Withdraw1()">
+    <hr>
+    <input type="button" value="Retirar de cuenta 2" id="bt12" onclick="Withdraw2()">
+    <hr>
+    <input type="button" value="Retirar de cuenta 3" id="bt13" onclick="Withdraw3()">
+</form>
+</body>
+</html>
