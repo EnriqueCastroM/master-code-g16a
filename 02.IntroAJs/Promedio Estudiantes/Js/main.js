@@ -45,7 +45,7 @@ function GenerarPlanilla(){
                     titulo = document.createTextNode('Estudiante');
                 }
                 else if(j===cantidadNotas+3){
-                    titulo = document.createTextNode('Def');
+                    titulo = document.createTextNode('Promedio');
                 }
                 else{
                     titulo = document.createTextNode('Nota ' + (j-2));
