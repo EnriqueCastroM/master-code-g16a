@@ -1,0 +1,52 @@
+/* Por defecto algunos elementos html tienen un padding y un margin. Al hacer el reset; */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Aqui inicia el body */
+body{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+/* BARNAV */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    font-size:  20px;
+}
+nav{
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    background-color: white;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    flex-grow: 1;
+    display: flex;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+nav img{
+    height: 24px;
+}
+.logo-icon{
+    margin-left: 15px;
+}
+nav a i{
+    color: #767676;
+    font-size: 1.5rem;
+}
+
+nav a p{
+    font-weight: bold;
+}
+

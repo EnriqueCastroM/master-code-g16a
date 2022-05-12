@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icono Pagina y titulo -->
+    <link rel="icon" href="./img/atm.png">
+    <title>Cajero automatico</title>
+    <!-- FUENTES REFERENCIAS -->
+    <script src="https://kit.fontawesome.com/e3aa5a861d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="./css/style.css">    
+    <!-- Script -->
+    <script defer src="./Js/main.js"></script>
+</head>
+
+<body>
+    
+    <header>
+        
+    </header>
+
+    <section>
+        <h1>
+            Sistema Automatizado de Promedios
+        </h1>
+        <label for="alumnos">Cantidad de alumnos:</label>
+        <input id="alumnos" type="number">
+        <label for="notas">Cantidad de notas por alumno:</label>
+        <input id="notas" type="number">
+        <button onclick="GenerarPlanilla()">Generar Planilla</button>
+    </section>
+    <br>
+    <h2>Planilla del grupo</h2>
+    <br>
+    <section>
+        <table id="planilla" border="1px">
+            
+        </table>
+        <button onclick="CalcularPromedio()">Promediar</button>
+    </section>
+    <p id="promedioGrupo"></p>
+</body>
+</html>
