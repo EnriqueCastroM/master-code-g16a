@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/app.js"></script>
+    <title>Cuenta 1</title>
+</head>
+<body>
+    <main>
+        <form action="" style="display: inline-block">
+            <h1>Login</h1>
+            <label for="">Usuario</label>
+            <input type="text" name="u" id="">
+            <label for="">Contraseña</label>
+            <input type="password" name="c" id="">
+            <input type="button" value="Ingresar" onclick="login1(this.form)">
+        </form>
+    </main> 
+
+    <section id="operacionesSaldos" style="display: none;">
+
+        <button onclick="obtenerSaldo1()">Consultar Saldo</button>
+
+        <input id="ingresarSaldo" type="number" style="display: none;">
+        <button id="Agregar" onclick="sumarMonto1()" style="display: none;">Agregar saldo</button>
+        <button onclick="ingresarMonto1()">Ingresar Saldo</button>
+
+        <input id="retirarSaldo" type="number" style="display: none;">
+        <button id="Retirar" onclick="restarMonto1()" style="display: none;">Retirar saldo</button>
+        <button onclick="retirarMonto1()">Retirar Saldo</button>
+    </section>
+
+    <section><a href="./login.html">Volver a cuentas</a></section>
+
+</body>
+</html>
