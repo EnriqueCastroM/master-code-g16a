@@ -1,16 +1,17 @@
 //#region Definicion de la clase cuenta
 
 class Cuenta {
-    constructor(nombre,saldo)
+    constructor(nombre,saldo, password)
     {
         this.nombre = nombre;
-        this.saldo = saldo;                
+        this.saldo = saldo;
+        this.password = password;            
     }
 }
 
-let cuenta1 = new Cuenta ('Mali', 200);
-let cuenta2 = new Cuenta ('Gera', 290);
-let cuenta3 = new Cuenta ('Maui', 67);
+let cuenta1 = new Cuenta ('enrique', 200,123);
+let cuenta2 = new Cuenta ('Gera', 290,123);
+let cuenta3 = new Cuenta ('Maui', 67,123);
 let cuentas = [cuenta1, cuenta2, cuenta3];
 //#endregion
 
@@ -18,8 +19,8 @@ let cuentas = [cuenta1, cuenta2, cuenta3];
 
 function login1(form){
     let opciones = document.getElementById('operacionesSaldos');
-    if (form.u.value=="enrique") {
-        if (form.c.value=="123") {
+    if (form.u.value==cuenta1.nombre) {
+        if (form.c.value==cuenta1.password) {
             opciones.style.display = 'inline-block';
             form.style.display = 'none';
         } else {
@@ -33,8 +34,8 @@ function login1(form){
 //FUNCION PARA EL LOGIN
 function login2(form){
     let opciones = document.getElementById('operacionesSaldos');
-    if (form.u.value=="enrique") {
-        if (form.c.value=="123") {
+    if (form.u.value==cuenta2.nombre) {
+        if (form.c.value==cuenta2.password) {
             opciones.style.display = 'inline-block';
             form.style.display = 'none';
         } else {
@@ -48,8 +49,8 @@ function login2(form){
 //FUNCION PARA EL LOGIN
 function login3(form){
     let opciones = document.getElementById('operacionesSaldos');
-    if (form.u.value=="enrique") {
-        if (form.c.value=="123") {
+    if (form.u.value==cuenta3.nombre) {
+        if (form.c.value==cuenta3.password) {
             opciones.style.display = 'inline-block';
             form.style.display = 'none';
         } else {
