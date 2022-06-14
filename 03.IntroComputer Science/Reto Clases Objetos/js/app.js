@@ -7,8 +7,6 @@ class Alumno {
        this.materia
     }
 
-
-
     agregarCalificación(materia, promedio){
     
         this.materia.push({materia : materia, calificación: calficacion})
